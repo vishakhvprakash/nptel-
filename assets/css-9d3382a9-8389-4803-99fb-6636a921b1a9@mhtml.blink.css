@@ -1,0 +1,5 @@
+@charset "utf-8";
+
+[data-radix-scroll-area-viewport] { scrollbar-width: none; }
+
+[data-radix-scroll-area-viewport]::-webkit-scrollbar { display: none; }

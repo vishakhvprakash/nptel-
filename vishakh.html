@@ -1,0 +1,547 @@
+<!DOCTYPE html><html lang="en" class="overflow-x-hidden" style="--a11y-font-scale: 1;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" type="text/css" href="assets/toastify.css" /><link rel="stylesheet" type="text/css" href="assets/radix.css" /><link rel="stylesheet" href="assets/106_hfdougdxv.css" data-precedence="next"><link rel="stylesheet" href="assets/3piepmm47cc3f.css" data-precedence="next"><link rel="stylesheet" href="assets/33dt0f8m0h8si.css" data-precedence="next"><link rel="stylesheet" href="assets/38-6-b6tu4i96.css" data-precedence="next"><link rel="preload" as="script" fetchpriority="low" href="https://onlinecourses.nptel.ac.in/_next/static/chunks/2_4nu8d6eaxck.js"><link rel="preload" href="https://www.googletagmanager.com/gtag/js?id=G-4FM68DFLTL" as="script"><link rel="preconnect" crossorigin="" href="https://onlinecourses.nptel.ac.in/"><title>Progress: Deep Learning - IIT Ropar | SWAYAM</title><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="SWAYAM Learning Platform"><link rel="stylesheet" href="assets/roboto.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<!-- responsive helper -->
+
+<style>
+  html, body {
+    overflow-x: hidden !important;
+    max-width: 100vw !important;
+    box-sizing: border-box !important;
+  }
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+  @media (min-width: 768px) {
+    .md\:block { display: block !important; }
+    .md\:hidden { display: none !important; }
+  }
+  @media (max-width: 767px) {
+    .md\:hidden { display: block !important; }
+    .md\:block { display: none !important; }
+  }
+  [data-state=open] > button > svg,
+  button[data-state=open] > svg {
+    transform: rotate(180deg);
+  }
+</style>
+
+</head><body class="antialiased overflow-x-hidden" style=""><!--$--><section class="Toastify" aria-live="polite" aria-atomic="false" aria-relevant="additions text" aria-label="Notifications Alt+T"></section><nav id="swayam-navbar" class="bg-[#ECEEFF] dark:bg-[#0D1320] sticky top-0 z-20"><div class="px-4 lg:px-6"><div class="flex items-center justify-between h-16"><div class="flex items-center gap-3 lg:gap-4 min-w-0 flex-1"><div class="shrink-0 flex items-center justify-center"><div class="w-[80px] h-[80px] lg:w-[100px] lg:h-[100px]"><img alt="logo" loading="eager" width="100" height="100" decoding="async" data-nimg="1" class="w-full h-full object-contain block dark:hidden" style="color:transparent;cursor:pointer" src="assets/Swayam_logo.svg"><img alt="logo dark" loading="eager" width="100" height="100" decoding="async" data-nimg="1" class="w-full h-full object-contain hidden dark:block" style="color:transparent;cursor:pointer" src="assets/dark_theme_swayam_logoNew.svg"></div></div><div class="flex shrink-0 items-center justify-center hover-styles"><div class="w-[80px] h-[80px] lg:w-[100px] object-contain "><img alt="logo" loading="eager" width="50" height="50" decoding="async" data-nimg="1" class="w-full h-full object-contain" src="assets/NPTEL-logo-new.png" style="color: transparent; cursor: pointer;"></div></div></div><div class="flex items-center gap-3"><div class="hidden lg:block"><button data-slot="button" data-variant="ghost" data-size="default" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive hover:bg-accent dark:hover:bg-accent/50 h-9 px-4 py-2 has-[&gt;svg]:px-3 hover-styles dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400">About the course</button></div><div class="hidden gap-4 lg:flex"><button data-slot="button" data-variant="ghost" data-size="default" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive hover:bg-accent h-9 px-4 py-2 has-[&gt;svg]:px-3 hover-styles dark:hover:bg-[#1E2535] dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400">Announcements</button><button data-slot="button" data-variant="ghost" data-size="default" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive hover:bg-accent h-9 px-4 py-2 has-[&gt;svg]:px-3 hover-styles dark:hover:bg-[#1E2535] dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400">My Bookmarks</button><button data-slot="button" data-variant="ghost" data-size="default" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive hover:bg-accent h-9 px-4 py-2 has-[&gt;svg]:px-3 hover-styles dark:hover:bg-[#1E2535] dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400">Q&amp;A</button></div><div class="relative"><button data-slot="button" data-variant="ghost" data-size="default" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 h-9 px-4 py-2 has-[&gt;svg]:px-3 hover-styles" aria-haspopup="dialog" aria-expanded="false" aria-controls="a11y-panel" title="Accessibility Tools"><img alt="Accessibility Tools icon" loading="eager" width="20" height="20" decoding="async" data-nimg="1" class="h-5 w-5 block dark:hidden" src="assets/accessibility_icon.svg" style="color: transparent; cursor: pointer;"><img alt="Accessibility Tools icon" loading="eager" width="20" height="20" decoding="async" data-nimg="1" class="h-5 w-5 hidden dark:block" src="assets/accessibility_dark.svg" style="color: transparent; cursor: pointer;"><span class="sr-only">Accessibility Tools</span></button></div><div class="hidden lg:block"><button class="keep-blue h-8 w-8 rounded-full bg-blue-600 dark:bg-blue-500 font-medium text-white hover-styles" type="button" id="radix-_r_0_" aria-haspopup="menu" aria-expanded="false" data-state="closed" data-slot="dropdown-menu-trigger">VH</button></div><div class="relative lg:hidden"><button class="hover-styles p-1"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-ellipsis h-6 w-6 text-gray-700" aria-hidden="true"><circle cx="12" cy="12" r="1"></circle><circle cx="19" cy="12" r="1"></circle><circle cx="5" cy="12" r="1"></circle></svg></button></div><button id="mobile-avatar-btn" class="h-9 w-9 rounded-full bg-blue-600 dark:bg-blue-500 font-semibold text-white lg:hidden hover-styles cursor-pointer">VH</button></div></div></div></nav><!--$--><!--/$--><div class="fixed right-0 top-0 z-[9998] h-screen w-[20px]"><button type="button" aria-label="Open AI Widgets" aria-describedby="ai-power-tooltip" class="group fixed right-0 top-1/2 -translate-y-1/2 z-40 h-[84px] w-[18px] rounded-l-[10px] rounded-r-none bg-white hover:bg-slate-50 border border-slate-300 border-r-0 shadow-[0_2px_10px_rgba(0,0,0,0.06)] flex items-center justify-center cursor-pointer transition-colors duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"><span class="relative flex items-center justify-center"><span class="flex flex-row items-center justify-center gap-[3px]"><span class="h-[20px] w-[2px] rounded-full bg-slate-400"></span><span class="h-[20px] w-[2px] rounded-full bg-slate-400"></span></span><span id="ai-power-tooltip" role="tooltip" class="pointer-events-none absolute left-[-8px] top-1/2 -translate-y-1/2 -translate-x-full whitespace-nowrap rounded-md border border-slate-200 bg-white px-2 py-1 text-[11px] font-medium text-slate-700 shadow-md opacity-0 scale-95 transition-all duration-150 origin-right group-hover:opacity-100 group-hover:scale-100 group-focus-visible:opacity-100 group-focus-visible:scale-100">AI Powered Widgets</span></span></button></div><div class="progress-page-wrapper grid h-[calc(100dvh-65px)] grid-cols-12 gap-0.5 preview-bg-light px-3 sm:px-6 pb-6"><div class="hidden rounded-xl preview-surface-light sm:col-span-3 lg:block"><div class="flex flex-col items-center p-10"><h1 class="text-xl leading-relaxed font-medium tracking-normal not-italic preview-title-brand-light">Deep Learning - IIT Ropar</h1><div class="relative flex h-28 w-28 items-center justify-center"><svg class="h-[119px] w-[119px] -rotate-90" viewBox="0 0 120 120"><circle cx="60" cy="60" r="50" fill="none" stroke="rgba(0, 0, 0, 0.08)" stroke-width="9"></circle><circle cx="60" cy="60" r="50" fill="none" stroke="#4CAF50" stroke-width="9" stroke-dasharray="293.2045947 314.159" stroke-linecap="round"></circle></svg><span class="absolute text-2xl font-semibold">93.33%</span></div><span class="font-input-value mt-2 mb-6 w-full text-center text-base leading-relaxed font-normal tracking-normal not-italic preview-text-primary-light">Course Progress</span><div data-orientation="horizontal" role="none" data-slot="separator" class="bg-border shrink-0 data-[orientation=horizontal]:h-px data-[orientation=horizontal]:w-full data-[orientation=vertical]:h-full data-[orientation=vertical]:w-px w-full preview-divider-light"></div><div class="mt-6 flex w-full items-start justify-center p-2.5"><div class="flex flex-col items-center justify-center gap-5 w-full min-w-0"><div class="flex flex-col items-center justify-center gap-1 w-full min-w-0 px-2"><span class="text-center text-sm leading-relaxed font-normal not-italic">Date Enrolled</span><span class="text-center text-base leading-relaxed font-semibold tracking-normal not-italic preview-text-primary-light break-words w-full">2026-08-02</span></div><div class="flex flex-col items-center justify-center gap-1 w-full min-w-0 px-2"><span class="text-center text-sm leading-relaxed font-normal not-italic">Email</span><span class="text-center text-base leading-relaxed font-semibold tracking-normal not-italic preview-text-primary-light break-words w-full">vishakhvprakash@gmail.com</span></div><div class="flex flex-col items-center justify-center gap-1 w-full min-w-0 px-2"><span class="text-center text-sm leading-relaxed font-normal not-italic">Name</span><span class="text-center text-base leading-relaxed font-semibold tracking-normal not-italic preview-text-primary-light break-words w-full">Vishakh V Prakash</span></div></div></div></div></div><div class="col-span-12 max-h-full rounded-xl preview-surface-light lg:col-span-9 overflow-y-auto"><div class="relative flex flex-col p-2 sm:p-4 md:p-10"><div class="mb-4 lg:hidden"><div class="mb-2"><span class="flex items-center gap-1 cursor-pointer preview-link-light" aria-label="Back to Course Outline"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-left h-4 w-4" aria-hidden="true"><path d="m12 19-7-7 7-7"></path><path d="M19 12H5"></path></svg>Back to Course Outline</span></div><div data-slot="card" class="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm preview-card-light"><div data-slot="card-content" class="px-6"><div class="flex flex-col md:flex-row"><div class="flex flex-1 flex-col items-start justify-center gap-4 w-full min-w-0"><div class="flex flex-col items-start justify-center gap-1 w-full min-w-0"><span class="text-left text-sm preview-text-muted-light">Date Enrolled</span><span class="text-md text-left font-medium preview-text-primary-light break-words w-full">2026-08-02</span></div><div class="flex flex-col items-start justify-center gap-1 w-full min-w-0"><span class="text-left text-sm preview-text-muted-light">Email</span><span class="text-md text-left font-medium preview-text-primary-light break-words w-full">vishakhvprakash@gmail.com</span></div><div class="flex flex-col items-start justify-center gap-1 w-full min-w-0"><span class="text-left text-sm preview-text-muted-light">Name</span><span class="text-md text-left font-medium preview-text-primary-light break-words w-full">Vishakh V Prakash</span></div></div><div class="flex flex-col items-center justify-center"><div class="relative flex h-28 w-28 items-center justify-center"><svg class="h-[119px] w-[119px] -rotate-90" viewBox="0 0 120 120"><circle cx="60" cy="60" r="50" fill="none" stroke="rgba(0, 0, 0, 0.08)" stroke-width="9"></circle><circle cx="60" cy="60" r="50" fill="none" stroke="#4CAF50" stroke-width="9" stroke-dasharray="293.2045947 314.159" stroke-linecap="round"></circle></svg><span class="absolute text-lg font-semibold">93.33%</span></div><span class="font-input-value mt-2 mb-6 w-full text-center font-medium preview-text-primary-light">Course Progress</span></div></div></div></div></div><div class="flex flex-col items-start gap-4"><div class="hidden lg:block"><span class="flex items-center gap-1 cursor-pointer preview-link-light" aria-label="Back to Course Outline"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-left h-4 w-4" aria-hidden="true"><path d="m12 19-7-7 7-7"></path><path d="M19 12H5"></path></svg>Back to Course Outline</span></div><h1 class="mb-4 truncate text-xl leading-relaxed font-medium tracking-normal not-italic preview-text-primary-light">Student Progress Report</h1></div><div dir="ltr" data-slot="scroll-area" class="relative h-auto w-full lg:h-[calc(100dvh-220px)] lg:pr-2" style="position: relative; --radix-scroll-area-corner-width: 0px; --radix-scroll-area-corner-height: 0px;"><div data-radix-scroll-area-viewport="" data-slot="scroll-area-viewport" class="focus-visible:ring-ring/50 size-full rounded-[inherit] transition-[color,box-shadow] outline-none focus-visible:ring-[3px] focus-visible:outline-1" style="overflow: hidden scroll;"><div style="width: 100%; min-width: 0;" class="w-full"><div class="mb-4 flex flex-col space-y-4"><div data-slot="accordion" class="w-full" data-orientation="vertical"><div class="flex flex-col gap-4"><div data-state="open" data-orientation="vertical" data-slot="accordion-item" class="w-full rounded-md border">
+  <h3 data-orientation="vertical" data-state="open" class="flex">
+    <button type="button" aria-expanded="true" data-state="open" data-orientation="vertical" id="radix-_r_8_" data-slot="accordion-trigger" class="focus-visible:border-ring focus-visible:ring-ring/50 flex flex-1 items-start justify-between gap-4 text-left transition-all outline-none focus-visible:ring-[3px] disabled:pointer-events-none disabled:opacity-50 w-full rounded-md px-4 py-4 text-base leading-relaxed font-medium tracking-normal not-italic preview-panel-light hover-styles data-[state=open]:rounded-b-none data-[state=open]:border-b" data-radix-collection-item="">
+      Assignment Scores
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down text-muted-foreground pointer-events-none size-4 shrink-0 translate-y-0.5 transition-transform duration-200" aria-hidden="true">
+        <path d="m6 9 6 6 6-6"></path>
+      </svg>
+    </button>
+  </h3>
+  <div data-state="open" id="radix-assignment-content" role="region" aria-labelledby="radix-_r_8_" data-orientation="vertical" data-slot="accordion-content" class="overflow-hidden text-sm w-full">
+    <div class="pt-0 pb-4 w-full">
+      <div class="w-full overflow-hidden">
+        
+                <!-- Desktop Table View -->
+        <div class="hidden md:block max-h-[350px] overflow-x-auto overflow-y-auto rounded-md">
+          <p class="py-2.5 pl-4 text-sm/[1.43] font-normal tracking-[0.17px] preview-link-light border-b text-blue-600">
+            Note : Please scroll down to see all assignment scores
+          </p>
+          <div data-slot="table-container" class="relative w-full overflow-x-auto">
+            <table data-slot="table" class="caption-bottom text-sm w-full">
+              <colgroup>
+                <col class="w-[75%]">
+                <col class="w-[25%]">
+              </colgroup>
+              <thead data-slot="table-header" class="[&_tr]:border-b bg-background sticky top-0 z-10">
+                <tr data-slot="table-row" class="hover:bg-muted/50 border-b transition-colors">
+                  <th data-slot="table-head" class="h-10 px-2 text-left align-middle font-medium whitespace-nowrap text-muted-foreground pl-8">
+                    Title
+                  </th>
+                  <th data-slot="table-head" class="h-10 px-2 text-right align-middle font-medium whitespace-nowrap text-muted-foreground pr-8">
+                    Score
+                  </th>
+                </tr>
+              </thead>
+              <tbody data-slot="table-body" class="[&_tr:last-child]:border-0">
+                <tr data-slot="table-row" class="hover:bg-muted/50 border-b transition-colors">
+                  <td data-slot="table-cell" class="p-3 align-middle whitespace-nowrap pl-8 font-medium text-sm text-foreground">Week 1: Assignment 1</td>
+                  <td data-slot="table-cell" class="p-3 align-middle whitespace-nowrap pr-8 text-right font-bold text-sm text-foreground">-</td>
+                </tr>
+                <tr data-slot="table-row" class="hover:bg-muted/50 border-b transition-colors">
+                  <td data-slot="table-cell" class="p-3 align-middle whitespace-nowrap pl-8 font-medium text-sm text-foreground">Week 2 : Assignment 2</td>
+                  <td data-slot="table-cell" class="p-3 align-middle whitespace-nowrap pr-8 text-right font-bold text-sm text-foreground">90</td>
+                </tr>
+                <tr data-slot="table-row" class="hover:bg-muted/50 border-b transition-colors">
+                  <td data-slot="table-cell" class="p-3 align-middle whitespace-nowrap pl-8 font-medium text-sm text-foreground">Week 3: Assignment 3</td>
+                  <td data-slot="table-cell" class="p-3 align-middle whitespace-nowrap pr-8 text-right font-bold text-sm text-foreground">90</td>
+                </tr>
+                <tr data-slot="table-row" class="hover:bg-muted/50 border-b transition-colors">
+                  <td data-slot="table-cell" class="p-3 align-middle whitespace-nowrap pl-8 font-medium text-sm text-foreground">Week 4: Assignment 4</td>
+                  <td data-slot="table-cell" class="p-3 align-middle whitespace-nowrap pr-8 text-right font-bold text-sm text-foreground">90</td>
+                </tr>
+                <tr data-slot="table-row" class="hover:bg-muted/50 border-b transition-colors">
+                  <td data-slot="table-cell" class="p-3 align-middle whitespace-nowrap pl-8 font-medium text-sm text-foreground">Week 5: Assignment 5</td>
+                  <td data-slot="table-cell" class="p-3 align-middle whitespace-nowrap pr-8 text-right font-bold text-sm text-foreground">90</td>
+                </tr>
+                <tr data-slot="table-row" class="hover:bg-muted/50 border-b transition-colors">
+                  <td data-slot="table-cell" class="p-3 align-middle whitespace-nowrap pl-8 font-medium text-sm text-foreground">Week 6: Assignment 6</td>
+                  <td data-slot="table-cell" class="p-3 align-middle whitespace-nowrap pr-8 text-right font-bold text-sm text-foreground">90</td>
+                </tr>
+                <tr data-slot="table-row" class="hover:bg-muted/50 border-b transition-colors">
+                  <td data-slot="table-cell" class="p-3 align-middle whitespace-nowrap pl-8 font-medium text-sm text-foreground">Week 7: Assignment 7</td>
+                  <td data-slot="table-cell" class="p-3 align-middle whitespace-nowrap pr-8 text-right font-bold text-sm text-foreground">-</td>
+                </tr>
+                <tr data-slot="table-row" class="hover:bg-muted/50 border-b transition-colors">
+                  <td data-slot="table-cell" class="p-3 align-middle whitespace-nowrap pl-8 font-medium text-sm text-foreground">Week 8: Assignment 8</td>
+                  <td data-slot="table-cell" class="p-3 align-middle whitespace-nowrap pr-8 text-right font-bold text-sm text-foreground">-</td>
+                </tr>
+                <tr data-slot="table-row" class="hover:bg-muted/50 border-b transition-colors">
+                  <td data-slot="table-cell" class="p-3 align-middle whitespace-nowrap pl-8 font-medium text-sm text-foreground">Week 9: Assignment 9</td>
+                  <td data-slot="table-cell" class="p-3 align-middle whitespace-nowrap pr-8 text-right font-bold text-sm text-foreground">-</td>
+                </tr>
+                <tr data-slot="table-row" class="hover:bg-muted/50 border-b transition-colors">
+                  <td data-slot="table-cell" class="p-3 align-middle whitespace-nowrap pl-8 font-medium text-sm text-foreground">Week 10: Assignment 10</td>
+                  <td data-slot="table-cell" class="p-3 align-middle whitespace-nowrap pr-8 text-right font-bold text-sm text-foreground">100</td>
+                </tr>
+                <tr data-slot="table-row" class="hover:bg-muted/50 border-b transition-colors">
+                  <td data-slot="table-cell" class="p-3 align-middle whitespace-nowrap pl-8 font-medium text-sm text-foreground">Week 11: Assignment 11</td>
+                  <td data-slot="table-cell" class="p-3 align-middle whitespace-nowrap pr-8 text-right font-bold text-sm text-foreground">100</td>
+                </tr>
+                <tr data-slot="table-row" class="hover:bg-muted/50 border-b transition-colors">
+                  <td data-slot="table-cell" class="p-3 align-middle whitespace-nowrap pl-8 font-medium text-sm text-foreground">Week 12: Assignment 12</td>
+                  <td data-slot="table-cell" class="p-3 align-middle whitespace-nowrap pr-8 text-right font-bold text-sm text-foreground">100</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+                <!-- Mobile Card View (Matches Uploaded Screenshot Exactly) -->
+        <div class="md:hidden space-y-3 px-3 pt-3 pb-2 max-h-[350px] overflow-y-auto w-full">
+          <p class="text-sm font-normal tracking-[0.17px] text-blue-600 dark:text-blue-400 mb-3 pl-1">
+            Note : Please scroll down to see all assignment scores
+          </p>
+          <div class="preview-card-light border border-slate-200 dark:border-gray-700 rounded-2xl p-4 bg-white dark:bg-[#1E2535] shadow-xs w-full">
+            <div class="flex items-center justify-between text-xs text-gray-500 dark:text-gray-400 mb-1">
+              <span class="font-normal">Title</span>
+              <span class="font-normal text-right">Score</span>
+            </div>
+            <div class="flex items-center justify-between">
+              <span class="text-sm font-semibold text-gray-900 dark:text-gray-100">Week 1: Assignment 1</span>
+              <span class="text-sm font-bold text-gray-900 dark:text-gray-100 text-right">-</span>
+            </div>
+          </div>
+          <div class="preview-card-light border border-slate-200 dark:border-gray-700 rounded-2xl p-4 bg-white dark:bg-[#1E2535] shadow-xs w-full">
+            <div class="flex items-center justify-between text-xs text-gray-500 dark:text-gray-400 mb-1">
+              <span class="font-normal">Title</span>
+              <span class="font-normal text-right">Score</span>
+            </div>
+            <div class="flex items-center justify-between">
+              <span class="text-sm font-semibold text-gray-900 dark:text-gray-100">Week 2 : Assignment 2</span>
+              <span class="text-sm font-bold text-gray-900 dark:text-gray-100 text-right">90</span>
+            </div>
+          </div>
+          <div class="preview-card-light border border-slate-200 dark:border-gray-700 rounded-2xl p-4 bg-white dark:bg-[#1E2535] shadow-xs w-full">
+            <div class="flex items-center justify-between text-xs text-gray-500 dark:text-gray-400 mb-1">
+              <span class="font-normal">Title</span>
+              <span class="font-normal text-right">Score</span>
+            </div>
+            <div class="flex items-center justify-between">
+              <span class="text-sm font-semibold text-gray-900 dark:text-gray-100">Week 3: Assignment 3</span>
+              <span class="text-sm font-bold text-gray-900 dark:text-gray-100 text-right">90</span>
+            </div>
+          </div>
+          <div class="preview-card-light border border-slate-200 dark:border-gray-700 rounded-2xl p-4 bg-white dark:bg-[#1E2535] shadow-xs w-full">
+            <div class="flex items-center justify-between text-xs text-gray-500 dark:text-gray-400 mb-1">
+              <span class="font-normal">Title</span>
+              <span class="font-normal text-right">Score</span>
+            </div>
+            <div class="flex items-center justify-between">
+              <span class="text-sm font-semibold text-gray-900 dark:text-gray-100">Week 4: Assignment 4</span>
+              <span class="text-sm font-bold text-gray-900 dark:text-gray-100 text-right">90</span>
+            </div>
+          </div>
+          <div class="preview-card-light border border-slate-200 dark:border-gray-700 rounded-2xl p-4 bg-white dark:bg-[#1E2535] shadow-xs w-full">
+            <div class="flex items-center justify-between text-xs text-gray-500 dark:text-gray-400 mb-1">
+              <span class="font-normal">Title</span>
+              <span class="font-normal text-right">Score</span>
+            </div>
+            <div class="flex items-center justify-between">
+              <span class="text-sm font-semibold text-gray-900 dark:text-gray-100">Week 5: Assignment 5</span>
+              <span class="text-sm font-bold text-gray-900 dark:text-gray-100 text-right">90</span>
+            </div>
+          </div>
+          <div class="preview-card-light border border-slate-200 dark:border-gray-700 rounded-2xl p-4 bg-white dark:bg-[#1E2535] shadow-xs w-full">
+            <div class="flex items-center justify-between text-xs text-gray-500 dark:text-gray-400 mb-1">
+              <span class="font-normal">Title</span>
+              <span class="font-normal text-right">Score</span>
+            </div>
+            <div class="flex items-center justify-between">
+              <span class="text-sm font-semibold text-gray-900 dark:text-gray-100">Week 6: Assignment 6</span>
+              <span class="text-sm font-bold text-gray-900 dark:text-gray-100 text-right">90</span>
+            </div>
+          </div>
+          <div class="preview-card-light border border-slate-200 dark:border-gray-700 rounded-2xl p-4 bg-white dark:bg-[#1E2535] shadow-xs w-full">
+            <div class="flex items-center justify-between text-xs text-gray-500 dark:text-gray-400 mb-1">
+              <span class="font-normal">Title</span>
+              <span class="font-normal text-right">Score</span>
+            </div>
+            <div class="flex items-center justify-between">
+              <span class="text-sm font-semibold text-gray-900 dark:text-gray-100">Week 7: Assignment 7</span>
+              <span class="text-sm font-bold text-gray-900 dark:text-gray-100 text-right">-</span>
+            </div>
+          </div>
+          <div class="preview-card-light border border-slate-200 dark:border-gray-700 rounded-2xl p-4 bg-white dark:bg-[#1E2535] shadow-xs w-full">
+            <div class="flex items-center justify-between text-xs text-gray-500 dark:text-gray-400 mb-1">
+              <span class="font-normal">Title</span>
+              <span class="font-normal text-right">Score</span>
+            </div>
+            <div class="flex items-center justify-between">
+              <span class="text-sm font-semibold text-gray-900 dark:text-gray-100">Week 8: Assignment 8</span>
+              <span class="text-sm font-bold text-gray-900 dark:text-gray-100 text-right">-</span>
+            </div>
+          </div>
+          <div class="preview-card-light border border-slate-200 dark:border-gray-700 rounded-2xl p-4 bg-white dark:bg-[#1E2535] shadow-xs w-full">
+            <div class="flex items-center justify-between text-xs text-gray-500 dark:text-gray-400 mb-1">
+              <span class="font-normal">Title</span>
+              <span class="font-normal text-right">Score</span>
+            </div>
+            <div class="flex items-center justify-between">
+              <span class="text-sm font-semibold text-gray-900 dark:text-gray-100">Week 9: Assignment 9</span>
+              <span class="text-sm font-bold text-gray-900 dark:text-gray-100 text-right">-</span>
+            </div>
+          </div>
+          <div class="preview-card-light border border-slate-200 dark:border-gray-700 rounded-2xl p-4 bg-white dark:bg-[#1E2535] shadow-xs w-full">
+            <div class="flex items-center justify-between text-xs text-gray-500 dark:text-gray-400 mb-1">
+              <span class="font-normal">Title</span>
+              <span class="font-normal text-right">Score</span>
+            </div>
+            <div class="flex items-center justify-between">
+              <span class="text-sm font-semibold text-gray-900 dark:text-gray-100">Week 10: Assignment 10</span>
+              <span class="text-sm font-bold text-gray-900 dark:text-gray-100 text-right">100</span>
+            </div>
+          </div>
+          <div class="preview-card-light border border-slate-200 dark:border-gray-700 rounded-2xl p-4 bg-white dark:bg-[#1E2535] shadow-xs w-full">
+            <div class="flex items-center justify-between text-xs text-gray-500 dark:text-gray-400 mb-1">
+              <span class="font-normal">Title</span>
+              <span class="font-normal text-right">Score</span>
+            </div>
+            <div class="flex items-center justify-between">
+              <span class="text-sm font-semibold text-gray-900 dark:text-gray-100">Week 11: Assignment 11</span>
+              <span class="text-sm font-bold text-gray-900 dark:text-gray-100 text-right">100</span>
+            </div>
+          </div>
+          <div class="preview-card-light border border-slate-200 dark:border-gray-700 rounded-2xl p-4 bg-white dark:bg-[#1E2535] shadow-xs w-full">
+            <div class="flex items-center justify-between text-xs text-gray-500 dark:text-gray-400 mb-1">
+              <span class="font-normal">Title</span>
+              <span class="font-normal text-right">Score</span>
+            </div>
+            <div class="flex items-center justify-between">
+              <span class="text-sm font-semibold text-gray-900 dark:text-gray-100">Week 12: Assignment 12</span>
+              <span class="text-sm font-bold text-gray-900 dark:text-gray-100 text-right">100</span>
+            </div>
+          </div>
+        </div>
+
+</div>
+
+      </div>
+    </div>
+  </div>
+</div>
+                      <div data-state="closed" data-orientation="vertical" data-slot="accordion-item" class="w-full rounded-md border"><h3 data-orientation="vertical" data-state="closed" class="flex"><button type="button" aria-expanded="false" data-state="closed" data-orientation="vertical" id="radix-_r_a_" data-slot="accordion-trigger" class="focus-visible:border-ring focus-visible:ring-ring/50 flex flex-1 items-start justify-between gap-4 text-left transition-all outline-none focus-visible:ring-[3px] disabled:pointer-events-none disabled:opacity-50 [&amp;[data-state=open]&gt;svg]:rotate-180 w-full rounded-md px-4 py-4 text-base leading-relaxed font-medium tracking-normal not-italic preview-panel-light hover-styles data-[state=open]:rounded-b-none data-[state=open]:border-b" data-radix-collection-item="" aria-controls="radix-_r_b_">Unit Wise Progress<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down text-muted-foreground pointer-events-none size-4 shrink-0 translate-y-0.5 transition-transform duration-200" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg></button></h3><div data-state="closed" id="radix-_r_b_" role="region" aria-labelledby="radix-_r_a_" data-orientation="vertical" data-slot="accordion-content" class="hidden data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down overflow-hidden text-sm" style="display: none; --radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width); --radix-collapsible-content-height: 366px; --radix-collapsible-content-width: 311.2727355957031px;"><div class="pt-0 pb-4 w-full"><div class="w-full overflow-hidden"><div class="hidden md:block max-h-[350px] overflow-x-auto overflow-y-auto rounded-md"><p class="py-2 pl-4 text-sm/[1.43] font-normal tracking-[0.17px] preview-link-light border-b">Note : The latest Course and Unit progress will be reflected within 24 hours.</p><div data-slot="table-container" class="relative w-full overflow-x-auto"><table data-slot="table" class="caption-bottom text-sm w-full"><colgroup><col class="w-[40%]"><col class="w-[30%]"><col class="w-[30%]"></colgroup><thead data-slot="table-header" class="[&amp;_tr]:border-b bg-background sticky top-0 z-10"><tr data-slot="table-row" class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors"><th data-slot="table-head" class="h-10 px-2 text-left align-middle font-medium whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] text-muted-foreground pl-8">Unit</th><th data-slot="table-head" class="h-10 px-2 text-left align-middle font-medium whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] text-muted-foreground">Lesson Progress</th><th data-slot="table-head" class="h-10 px-2 text-left align-middle font-medium whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] text-muted-foreground">Assignments Progress</th></tr></thead><tbody data-slot="table-body" class="[&amp;_tr:last-child]:border-0"><tr data-slot="table-row" class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors"><td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] truncate pl-8">About NPTEL</td><td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px]"><div class="flex items-center gap-2"><div class="bg-muted relative h-2 w-1/2 overflow-hidden rounded-full" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" aria-label="Lesson progress"><div class="h-full rounded-full bg-gradient-to-r from-green-500 to-green-600 transition-all duration-500" style="width: 100%;"></div></div><span class="text-foreground text-xs font-medium">100%</span></div></td><td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px]"><div class="flex items-center gap-2">-</div></td></tr><tr data-slot="table-row" class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors"><td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] truncate pl-8">How does an NPTEL online course work?</td><td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px]"><div class="flex items-center gap-2"><div class="bg-muted relative h-2 w-1/2 overflow-hidden rounded-full" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" aria-label="Lesson progress"><div class="h-full rounded-full bg-gradient-to-r from-green-500 to-green-600 transition-all duration-500" style="width: 100%;"></div></div><span class="text-foreground text-xs font-medium">100%</span></div></td><td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px]"><div class="flex items-center gap-2">-</div></td></tr><tr data-slot="table-row" class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors"><td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] truncate pl-8">Week 1</td><td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px]"><div class="flex items-center gap-2"><div class="bg-muted relative h-2 w-1/2 overflow-hidden rounded-full" role="progressbar" aria-valuenow="100.0" aria-valuemin="0" aria-valuemax="100" aria-label="Lesson progress"><div class="h-full rounded-full bg-gradient-to-r from-green-500 to-green-600 transition-all duration-500" style="width: 100%;"></div></div><span class="text-foreground text-xs font-medium">100%</span></div></td><td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px]"><div class="flex items-center gap-2"><div class="bg-muted relative h-2 w-1/2 overflow-hidden rounded-full" role="progressbar" aria-valuenow="100.0" aria-valuemin="0" aria-valuemax="100" aria-label="Lesson progress"><div class="h-full rounded-full bg-gradient-to-r from-[#24C246] to-[#24C246] transition-all duration-500" style="width: 100%;"></div></div><span class="text-foreground text-xs font-medium">100%</span></div></td></tr><tr data-slot="table-row" class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors"><td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] truncate pl-8">Week 2</td><td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px]"><div class="flex items-center gap-2"><div class="bg-muted relative h-2 w-1/2 overflow-hidden rounded-full" role="progressbar" aria-valuenow="100.0" aria-valuemin="0" aria-valuemax="100" aria-label="Lesson progress"><div class="h-full rounded-full bg-gradient-to-r from-green-500 to-green-600 transition-all duration-500" style="width: 100%;"></div></div><span class="text-foreground text-xs font-medium">100%</span></div></td><td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px]"><div class="flex items-center gap-2"><div class="bg-muted relative h-2 w-1/2 overflow-hidden rounded-full" role="progressbar" aria-valuenow="90.0" aria-valuemin="0" aria-valuemax="100" aria-label="Lesson progress"><div class="h-full rounded-full bg-gradient-to-r from-[#24C246] to-[#24C246] transition-all duration-500" style="width: 90%;"></div></div><span class="text-foreground text-xs font-medium">90%</span></div></td></tr><tr data-slot="table-row" class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors"><td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] truncate pl-8">Week 3</td><td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px]"><div class="flex items-center gap-2"><div class="bg-muted relative h-2 w-1/2 overflow-hidden rounded-full" role="progressbar" aria-valuenow="100.0" aria-valuemin="0" aria-valuemax="100" aria-label="Lesson progress"><div class="h-full rounded-full bg-gradient-to-r from-green-500 to-green-600 transition-all duration-500" style="width: 100%;"></div></div><span class="text-foreground text-xs font-medium">100%</span></div></td><td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px]"><div class="flex items-center gap-2"><div class="bg-muted relative h-2 w-1/2 overflow-hidden rounded-full" role="progressbar" aria-valuenow="90.0" aria-valuemin="0" aria-valuemax="100" aria-label="Lesson progress"><div class="h-full rounded-full bg-gradient-to-r from-[#24C246] to-[#24C246] transition-all duration-500" style="width: 90%;"></div></div><span class="text-foreground text-xs font-medium">90%</span></div></td></tr><tr data-slot="table-row" class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors"><td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] truncate pl-8">week 4</td><td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px]"><div class="flex items-center gap-2"><div class="bg-muted relative h-2 w-1/2 overflow-hidden rounded-full" role="progressbar" aria-valuenow="100.0" aria-valuemin="0" aria-valuemax="100" aria-label="Lesson progress"><div class="h-full rounded-full bg-gradient-to-r from-green-500 to-green-600 transition-all duration-500" style="width: 100%;"></div></div><span class="text-foreground text-xs font-medium">100%</span></div></td><td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px]"><div class="flex items-center gap-2"><div class="bg-muted relative h-2 w-1/2 overflow-hidden rounded-full" role="progressbar" aria-valuenow="90.0" aria-valuemin="0" aria-valuemax="100" aria-label="Lesson progress"><div class="h-full rounded-full bg-gradient-to-r from-[#24C246] to-[#24C246] transition-all duration-500" style="width: 90%;"></div></div><span class="text-foreground text-xs font-medium">90%</span></div></td></tr><tr data-slot="table-row" class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors"><td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] truncate pl-8">Week 5</td><td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px]"><div class="flex items-center gap-2"><div class="bg-muted relative h-2 w-1/2 overflow-hidden rounded-full" role="progressbar" aria-valuenow="100.0" aria-valuemin="0" aria-valuemax="100" aria-label="Lesson progress"><div class="h-full rounded-full bg-gradient-to-r from-green-500 to-green-600 transition-all duration-500" style="width: 100%;"></div></div><span class="text-foreground text-xs font-medium">100%</span></div></td><td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px]"><div class="flex items-center gap-2"><div class="bg-muted relative h-2 w-1/2 overflow-hidden rounded-full" role="progressbar" aria-valuenow="90.0" aria-valuemin="0" aria-valuemax="100" aria-label="Lesson progress"><div class="h-full rounded-full bg-gradient-to-r from-[#24C246] to-[#24C246] transition-all duration-500" style="width: 90%;"></div></div><span class="text-foreground text-xs font-medium">90%</span></div></td></tr><tr data-slot="table-row" class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors"><td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] truncate pl-8">Week 6</td><td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px]"><div class="flex items-center gap-2"><div class="bg-muted relative h-2 w-1/2 overflow-hidden rounded-full" role="progressbar" aria-valuenow="100.0" aria-valuemin="0" aria-valuemax="100" aria-label="Lesson progress"><div class="h-full rounded-full bg-gradient-to-r from-green-500 to-green-600 transition-all duration-500" style="width: 100%;"></div></div><span class="text-foreground text-xs font-medium">100%</span></div></td><td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px]"><div class="flex items-center gap-2"><div class="bg-muted relative h-2 w-1/2 overflow-hidden rounded-full" role="progressbar" aria-valuenow="90.0" aria-valuemin="0" aria-valuemax="100" aria-label="Lesson progress"><div class="h-full rounded-full bg-gradient-to-r from-[#24C246] to-[#24C246] transition-all duration-500" style="width: 90%;"></div></div><span class="text-foreground text-xs font-medium">90%</span></div></td></tr><tr data-slot="table-row" class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors"><td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] truncate pl-8">Week 7</td><td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px]"><div class="flex items-center gap-2"><div class="bg-muted relative h-2 w-1/2 overflow-hidden rounded-full" role="progressbar" aria-valuenow="100.0" aria-valuemin="0" aria-valuemax="100" aria-label="Lesson progress"><div class="h-full rounded-full bg-gradient-to-r from-green-500 to-green-600 transition-all duration-500" style="width: 100%;"></div></div><span class="text-foreground text-xs font-medium">100%</span></div></td><td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px]"><div class="flex items-center gap-2"><div class="bg-muted relative h-2 w-1/2 overflow-hidden rounded-full" role="progressbar" aria-valuenow="0.0" aria-valuemin="0" aria-valuemax="100" aria-label="Lesson progress"><div class="h-full rounded-full bg-gradient-to-r from-[#24C246] to-[#24C246] transition-all duration-500" style="width: 0%;"></div></div><span class="text-foreground text-xs font-medium">0%</span></div></td></tr><tr data-slot="table-row" class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors"><td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] truncate pl-8">Week 8</td><td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px]"><div class="flex items-center gap-2"><div class="bg-muted relative h-2 w-1/2 overflow-hidden rounded-full" role="progressbar" aria-valuenow="100.0" aria-valuemin="0" aria-valuemax="100" aria-label="Lesson progress"><div class="h-full rounded-full bg-gradient-to-r from-green-500 to-green-600 transition-all duration-500" style="width: 100%;"></div></div><span class="text-foreground text-xs font-medium">100%</span></div></td><td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px]"><div class="flex items-center gap-2"><div class="bg-muted relative h-2 w-1/2 overflow-hidden rounded-full" role="progressbar" aria-valuenow="0.0" aria-valuemin="0" aria-valuemax="100" aria-label="Lesson progress"><div class="h-full rounded-full bg-gradient-to-r from-[#24C246] to-[#24C246] transition-all duration-500" style="width: 0%;"></div></div><span class="text-foreground text-xs font-medium">0%</span></div></td></tr><tr data-slot="table-row" class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors"><td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] truncate pl-8">Week 9</td><td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px]"><div class="flex items-center gap-2"><div class="bg-muted relative h-2 w-1/2 overflow-hidden rounded-full" role="progressbar" aria-valuenow="100.0" aria-valuemin="0" aria-valuemax="100" aria-label="Lesson progress"><div class="h-full rounded-full bg-gradient-to-r from-green-500 to-green-600 transition-all duration-500" style="width: 100%;"></div></div><span class="text-foreground text-xs font-medium">100%</span></div></td><td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px]"><div class="flex items-center gap-2"><div class="bg-muted relative h-2 w-1/2 overflow-hidden rounded-full" role="progressbar" aria-valuenow="0.0" aria-valuemin="0" aria-valuemax="100" aria-label="Lesson progress"><div class="h-full rounded-full bg-gradient-to-r from-[#24C246] to-[#24C246] transition-all duration-500" style="width: 0%;"></div></div><span class="text-foreground text-xs font-medium">0%</span></div></td></tr><tr data-slot="table-row" class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors"><td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] truncate pl-8">week 10</td><td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px]"><div class="flex items-center gap-2"><div class="bg-muted relative h-2 w-1/2 overflow-hidden rounded-full" role="progressbar" aria-valuenow="100.0" aria-valuemin="0" aria-valuemax="100" aria-label="Lesson progress"><div class="h-full rounded-full bg-gradient-to-r from-green-500 to-green-600 transition-all duration-500" style="width: 100%;"></div></div><span class="text-foreground text-xs font-medium">100%</span></div></td><td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px]"><div class="flex items-center gap-2"><div class="bg-muted relative h-2 w-1/2 overflow-hidden rounded-full" role="progressbar" aria-valuenow="100.0" aria-valuemin="0" aria-valuemax="100" aria-label="Lesson progress"><div class="h-full rounded-full bg-gradient-to-r from-[#24C246] to-[#24C246] transition-all duration-500" style="width: 100%;"></div></div><span class="text-foreground text-xs font-medium">100%</span></div></td></tr><tr data-slot="table-row" class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors"><td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] truncate pl-8">Week 11</td><td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px]"><div class="flex items-center gap-2"><div class="bg-muted relative h-2 w-1/2 overflow-hidden rounded-full" role="progressbar" aria-valuenow="100.0" aria-valuemin="0" aria-valuemax="100" aria-label="Lesson progress"><div class="h-full rounded-full bg-gradient-to-r from-green-500 to-green-600 transition-all duration-500" style="width: 100%;"></div></div><span class="text-foreground text-xs font-medium">100%</span></div></td><td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px]"><div class="flex items-center gap-2"><div class="bg-muted relative h-2 w-1/2 overflow-hidden rounded-full" role="progressbar" aria-valuenow="100.0" aria-valuemin="0" aria-valuemax="100" aria-label="Lesson progress"><div class="h-full rounded-full bg-gradient-to-r from-[#24C246] to-[#24C246] transition-all duration-500" style="width: 100%;"></div></div><span class="text-foreground text-xs font-medium">100%</span></div></td></tr><tr data-slot="table-row" class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors"><td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] truncate pl-8">Week 12</td><td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px]"><div class="flex items-center gap-2"><div class="bg-muted relative h-2 w-1/2 overflow-hidden rounded-full" role="progressbar" aria-valuenow="87.5" aria-valuemin="0" aria-valuemax="100" aria-label="Lesson progress"><div class="h-full rounded-full bg-gradient-to-r from-green-500 to-green-600 transition-all duration-500" style="width: 87.5%;"></div></div><span class="text-foreground text-xs font-medium">87.5%</span></div></td><td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px]"><div class="flex items-center gap-2"><div class="bg-muted relative h-2 w-1/2 overflow-hidden rounded-full" role="progressbar" aria-valuenow="100.0" aria-valuemin="0" aria-valuemax="100" aria-label="Lesson progress"><div class="h-full rounded-full bg-gradient-to-r from-[#24C246] to-[#24C246] transition-all duration-500" style="width: 100%;"></div></div><span class="text-foreground text-xs font-medium">100%</span></div></td></tr><tr data-slot="table-row" class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors"><td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] truncate pl-8">Download Videos</td><td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px]"><div class="flex items-center gap-2"><div class="bg-muted relative h-2 w-1/2 overflow-hidden rounded-full" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" aria-label="Lesson progress"><div class="h-full rounded-full bg-gradient-to-r from-green-500 to-green-600 transition-all duration-500" style="width: 0%;"></div></div><span class="text-foreground text-xs font-medium">0%</span></div></td><td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px]"><div class="flex items-center gap-2">-</div></td></tr><tr data-slot="table-row" class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors"><td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] truncate pl-8">Books</td><td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px]"><div class="flex items-center gap-2"><div class="bg-muted relative h-2 w-1/2 overflow-hidden rounded-full" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" aria-label="Lesson progress"><div class="h-full rounded-full bg-gradient-to-r from-green-500 to-green-600 transition-all duration-500" style="width: 0%;"></div></div><span class="text-foreground text-xs font-medium">0%</span></div></td><td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px]"><div class="flex items-center gap-2">-</div></td></tr><tr data-slot="table-row" class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors"><td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] truncate pl-8">Text Transcripts</td><td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px]"><div class="flex items-center gap-2"><div class="bg-muted relative h-2 w-1/2 overflow-hidden rounded-full" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" aria-label="Lesson progress"><div class="h-full rounded-full bg-gradient-to-r from-green-500 to-green-600 transition-all duration-500" style="width: 0%;"></div></div><span class="text-foreground text-xs font-medium">0%</span></div></td><td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px]"><div class="flex items-center gap-2">-</div></td></tr></tbody></table></div></div><div class="md:hidden space-y-4 px-4 pt-4 pb-2 max-h-[350px] overflow-y-auto"><p class="text-sm/[1.43] font-normal tracking-[0.17px] preview-link-light">Note : The latest Course and Unit progress will be reflected within 24 hours.</p><div class="preview-card-light border rounded-lg p-4 shadow-sm"><h4 class="font-medium text-base mb-3 break-words whitespace-normal preview-text-primary-light">About NPTEL</h4><div class="space-y-3"><div><p class="text-xs preview-text-muted-light mb-1.5">Lesson Progress</p><div class="flex items-center gap-2 w-full"><div class="bg-muted relative h-2 flex-1 overflow-hidden rounded-full" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" aria-label="Lesson progress"><div class="h-full rounded-full bg-gradient-to-r from-green-500 to-green-600 transition-all duration-500" style="width: 100%;"></div></div><span class="text-foreground text-xs font-medium whitespace-nowrap">100%</span></div></div><div><p class="text-xs preview-text-muted-light mb-1.5">Assignments Progress</p><span class="text-sm preview-text-muted-light">-</span></div></div></div><div class="preview-card-light border rounded-lg p-4 shadow-sm"><h4 class="font-medium text-base mb-3 break-words whitespace-normal preview-text-primary-light">How does an NPTEL online course work?</h4><div class="space-y-3"><div><p class="text-xs preview-text-muted-light mb-1.5">Lesson Progress</p><div class="flex items-center gap-2 w-full"><div class="bg-muted relative h-2 flex-1 overflow-hidden rounded-full" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" aria-label="Lesson progress"><div class="h-full rounded-full bg-gradient-to-r from-green-500 to-green-600 transition-all duration-500" style="width: 100%;"></div></div><span class="text-foreground text-xs font-medium whitespace-nowrap">100%</span></div></div><div><p class="text-xs preview-text-muted-light mb-1.5">Assignments Progress</p><span class="text-sm preview-text-muted-light">-</span></div></div></div><div class="preview-card-light border rounded-lg p-4 shadow-sm"><h4 class="font-medium text-base mb-3 break-words whitespace-normal preview-text-primary-light">Week 1</h4><div class="space-y-3"><div><p class="text-xs preview-text-muted-light mb-1.5">Lesson Progress</p><div class="flex items-center gap-2 w-full"><div class="bg-muted relative h-2 flex-1 overflow-hidden rounded-full" role="progressbar" aria-valuenow="100.0" aria-valuemin="0" aria-valuemax="100" aria-label="Lesson progress"><div class="h-full rounded-full bg-gradient-to-r from-green-500 to-green-600 transition-all duration-500" style="width: 100%;"></div></div><span class="text-foreground text-xs font-medium whitespace-nowrap">100%</span></div></div><div><p class="text-xs preview-text-muted-light mb-1.5">Assignments Progress</p><div class="flex items-center gap-2 w-full"><div class="bg-muted relative h-2 flex-1 overflow-hidden rounded-full" role="progressbar" aria-valuenow="100.0" aria-valuemin="0" aria-valuemax="100" aria-label="Assessment progress"><div class="h-full rounded-full bg-gradient-to-r from-[#24C246] to-[#24C246] transition-all duration-500" style="width: 100%;"></div></div><span class="text-foreground text-xs font-medium whitespace-nowrap">100%</span></div></div></div></div><div class="preview-card-light border rounded-lg p-4 shadow-sm"><h4 class="font-medium text-base mb-3 break-words whitespace-normal preview-text-primary-light">Week 2</h4><div class="space-y-3"><div><p class="text-xs preview-text-muted-light mb-1.5">Lesson Progress</p><div class="flex items-center gap-2 w-full"><div class="bg-muted relative h-2 flex-1 overflow-hidden rounded-full" role="progressbar" aria-valuenow="100.0" aria-valuemin="0" aria-valuemax="100" aria-label="Lesson progress"><div class="h-full rounded-full bg-gradient-to-r from-green-500 to-green-600 transition-all duration-500" style="width: 100%;"></div></div><span class="text-foreground text-xs font-medium whitespace-nowrap">100%</span></div></div><div><p class="text-xs preview-text-muted-light mb-1.5">Assignments Progress</p><div class="flex items-center gap-2 w-full"><div class="bg-muted relative h-2 flex-1 overflow-hidden rounded-full" role="progressbar" aria-valuenow="90.0" aria-valuemin="0" aria-valuemax="100" aria-label="Assessment progress"><div class="h-full rounded-full bg-gradient-to-r from-[#24C246] to-[#24C246] transition-all duration-500" style="width: 90%;"></div></div><span class="text-foreground text-xs font-medium whitespace-nowrap">90%</span></div></div></div></div><div class="preview-card-light border rounded-lg p-4 shadow-sm"><h4 class="font-medium text-base mb-3 break-words whitespace-normal preview-text-primary-light">Week 3</h4><div class="space-y-3"><div><p class="text-xs preview-text-muted-light mb-1.5">Lesson Progress</p><div class="flex items-center gap-2 w-full"><div class="bg-muted relative h-2 flex-1 overflow-hidden rounded-full" role="progressbar" aria-valuenow="100.0" aria-valuemin="0" aria-valuemax="100" aria-label="Lesson progress"><div class="h-full rounded-full bg-gradient-to-r from-green-500 to-green-600 transition-all duration-500" style="width: 100%;"></div></div><span class="text-foreground text-xs font-medium whitespace-nowrap">100%</span></div></div><div><p class="text-xs preview-text-muted-light mb-1.5">Assignments Progress</p><div class="flex items-center gap-2 w-full"><div class="bg-muted relative h-2 flex-1 overflow-hidden rounded-full" role="progressbar" aria-valuenow="90.0" aria-valuemin="0" aria-valuemax="100" aria-label="Assessment progress"><div class="h-full rounded-full bg-gradient-to-r from-[#24C246] to-[#24C246] transition-all duration-500" style="width: 90%;"></div></div><span class="text-foreground text-xs font-medium whitespace-nowrap">90%</span></div></div></div></div><div class="preview-card-light border rounded-lg p-4 shadow-sm"><h4 class="font-medium text-base mb-3 break-words whitespace-normal preview-text-primary-light">week 4</h4><div class="space-y-3"><div><p class="text-xs preview-text-muted-light mb-1.5">Lesson Progress</p><div class="flex items-center gap-2 w-full"><div class="bg-muted relative h-2 flex-1 overflow-hidden rounded-full" role="progressbar" aria-valuenow="100.0" aria-valuemin="0" aria-valuemax="100" aria-label="Lesson progress"><div class="h-full rounded-full bg-gradient-to-r from-green-500 to-green-600 transition-all duration-500" style="width: 100%;"></div></div><span class="text-foreground text-xs font-medium whitespace-nowrap">100%</span></div></div><div><p class="text-xs preview-text-muted-light mb-1.5">Assignments Progress</p><div class="flex items-center gap-2 w-full"><div class="bg-muted relative h-2 flex-1 overflow-hidden rounded-full" role="progressbar" aria-valuenow="90.0" aria-valuemin="0" aria-valuemax="100" aria-label="Assessment progress"><div class="h-full rounded-full bg-gradient-to-r from-[#24C246] to-[#24C246] transition-all duration-500" style="width: 90%;"></div></div><span class="text-foreground text-xs font-medium whitespace-nowrap">90%</span></div></div></div></div><div class="preview-card-light border rounded-lg p-4 shadow-sm"><h4 class="font-medium text-base mb-3 break-words whitespace-normal preview-text-primary-light">Week 5</h4><div class="space-y-3"><div><p class="text-xs preview-text-muted-light mb-1.5">Lesson Progress</p><div class="flex items-center gap-2 w-full"><div class="bg-muted relative h-2 flex-1 overflow-hidden rounded-full" role="progressbar" aria-valuenow="100.0" aria-valuemin="0" aria-valuemax="100" aria-label="Lesson progress"><div class="h-full rounded-full bg-gradient-to-r from-green-500 to-green-600 transition-all duration-500" style="width: 100%;"></div></div><span class="text-foreground text-xs font-medium whitespace-nowrap">100%</span></div></div><div><p class="text-xs preview-text-muted-light mb-1.5">Assignments Progress</p><div class="flex items-center gap-2 w-full"><div class="bg-muted relative h-2 flex-1 overflow-hidden rounded-full" role="progressbar" aria-valuenow="90.0" aria-valuemin="0" aria-valuemax="100" aria-label="Assessment progress"><div class="h-full rounded-full bg-gradient-to-r from-[#24C246] to-[#24C246] transition-all duration-500" style="width: 90%;"></div></div><span class="text-foreground text-xs font-medium whitespace-nowrap">90%</span></div></div></div></div><div class="preview-card-light border rounded-lg p-4 shadow-sm"><h4 class="font-medium text-base mb-3 break-words whitespace-normal preview-text-primary-light">Week 6</h4><div class="space-y-3"><div><p class="text-xs preview-text-muted-light mb-1.5">Lesson Progress</p><div class="flex items-center gap-2 w-full"><div class="bg-muted relative h-2 flex-1 overflow-hidden rounded-full" role="progressbar" aria-valuenow="100.0" aria-valuemin="0" aria-valuemax="100" aria-label="Lesson progress"><div class="h-full rounded-full bg-gradient-to-r from-green-500 to-green-600 transition-all duration-500" style="width: 100%;"></div></div><span class="text-foreground text-xs font-medium whitespace-nowrap">100%</span></div></div><div><p class="text-xs preview-text-muted-light mb-1.5">Assignments Progress</p><div class="flex items-center gap-2 w-full"><div class="bg-muted relative h-2 flex-1 overflow-hidden rounded-full" role="progressbar" aria-valuenow="90.0" aria-valuemin="0" aria-valuemax="100" aria-label="Assessment progress"><div class="h-full rounded-full bg-gradient-to-r from-[#24C246] to-[#24C246] transition-all duration-500" style="width: 90%;"></div></div><span class="text-foreground text-xs font-medium whitespace-nowrap">90%</span></div></div></div></div><div class="preview-card-light border rounded-lg p-4 shadow-sm"><h4 class="font-medium text-base mb-3 break-words whitespace-normal preview-text-primary-light">Week 7</h4><div class="space-y-3"><div><p class="text-xs preview-text-muted-light mb-1.5">Lesson Progress</p><div class="flex items-center gap-2 w-full"><div class="bg-muted relative h-2 flex-1 overflow-hidden rounded-full" role="progressbar" aria-valuenow="100.0" aria-valuemin="0" aria-valuemax="100" aria-label="Lesson progress"><div class="h-full rounded-full bg-gradient-to-r from-green-500 to-green-600 transition-all duration-500" style="width: 100%;"></div></div><span class="text-foreground text-xs font-medium whitespace-nowrap">100%</span></div></div><div><p class="text-xs preview-text-muted-light mb-1.5">Assignments Progress</p><div class="flex items-center gap-2 w-full"><div class="bg-muted relative h-2 flex-1 overflow-hidden rounded-full" role="progressbar" aria-valuenow="0.0" aria-valuemin="0" aria-valuemax="100" aria-label="Assessment progress"><div class="h-full rounded-full bg-gradient-to-r from-[#24C246] to-[#24C246] transition-all duration-500" style="width: 0%;"></div></div><span class="text-foreground text-xs font-medium whitespace-nowrap">0%</span></div></div></div></div><div class="preview-card-light border rounded-lg p-4 shadow-sm"><h4 class="font-medium text-base mb-3 break-words whitespace-normal preview-text-primary-light">Week 8</h4><div class="space-y-3"><div><p class="text-xs preview-text-muted-light mb-1.5">Lesson Progress</p><div class="flex items-center gap-2 w-full"><div class="bg-muted relative h-2 flex-1 overflow-hidden rounded-full" role="progressbar" aria-valuenow="100.0" aria-valuemin="0" aria-valuemax="100" aria-label="Lesson progress"><div class="h-full rounded-full bg-gradient-to-r from-green-500 to-green-600 transition-all duration-500" style="width: 100%;"></div></div><span class="text-foreground text-xs font-medium whitespace-nowrap">100%</span></div></div><div><p class="text-xs preview-text-muted-light mb-1.5">Assignments Progress</p><div class="flex items-center gap-2 w-full"><div class="bg-muted relative h-2 flex-1 overflow-hidden rounded-full" role="progressbar" aria-valuenow="0.0" aria-valuemin="0" aria-valuemax="100" aria-label="Assessment progress"><div class="h-full rounded-full bg-gradient-to-r from-[#24C246] to-[#24C246] transition-all duration-500" style="width: 0%;"></div></div><span class="text-foreground text-xs font-medium whitespace-nowrap">0%</span></div></div></div></div><div class="preview-card-light border rounded-lg p-4 shadow-sm"><h4 class="font-medium text-base mb-3 break-words whitespace-normal preview-text-primary-light">Week 9</h4><div class="space-y-3"><div><p class="text-xs preview-text-muted-light mb-1.5">Lesson Progress</p><div class="flex items-center gap-2 w-full"><div class="bg-muted relative h-2 flex-1 overflow-hidden rounded-full" role="progressbar" aria-valuenow="100.0" aria-valuemin="0" aria-valuemax="100" aria-label="Lesson progress"><div class="h-full rounded-full bg-gradient-to-r from-green-500 to-green-600 transition-all duration-500" style="width: 100%;"></div></div><span class="text-foreground text-xs font-medium whitespace-nowrap">100%</span></div></div><div><p class="text-xs preview-text-muted-light mb-1.5">Assignments Progress</p><div class="flex items-center gap-2 w-full"><div class="bg-muted relative h-2 flex-1 overflow-hidden rounded-full" role="progressbar" aria-valuenow="0.0" aria-valuemin="0" aria-valuemax="100" aria-label="Assessment progress"><div class="h-full rounded-full bg-gradient-to-r from-[#24C246] to-[#24C246] transition-all duration-500" style="width: 0%;"></div></div><span class="text-foreground text-xs font-medium whitespace-nowrap">0%</span></div></div></div></div><div class="preview-card-light border rounded-lg p-4 shadow-sm"><h4 class="font-medium text-base mb-3 break-words whitespace-normal preview-text-primary-light">week 10</h4><div class="space-y-3"><div><p class="text-xs preview-text-muted-light mb-1.5">Lesson Progress</p><div class="flex items-center gap-2 w-full"><div class="bg-muted relative h-2 flex-1 overflow-hidden rounded-full" role="progressbar" aria-valuenow="100.0" aria-valuemin="0" aria-valuemax="100" aria-label="Lesson progress"><div class="h-full rounded-full bg-gradient-to-r from-green-500 to-green-600 transition-all duration-500" style="width: 100%;"></div></div><span class="text-foreground text-xs font-medium whitespace-nowrap">100%</span></div></div><div><p class="text-xs preview-text-muted-light mb-1.5">Assignments Progress</p><div class="flex items-center gap-2 w-full"><div class="bg-muted relative h-2 flex-1 overflow-hidden rounded-full" role="progressbar" aria-valuenow="100.0" aria-valuemin="0" aria-valuemax="100" aria-label="Assessment progress"><div class="h-full rounded-full bg-gradient-to-r from-[#24C246] to-[#24C246] transition-all duration-500" style="width: 100%;"></div></div><span class="text-foreground text-xs font-medium whitespace-nowrap">100%</span></div></div></div></div><div class="preview-card-light border rounded-lg p-4 shadow-sm"><h4 class="font-medium text-base mb-3 break-words whitespace-normal preview-text-primary-light">Week 11</h4><div class="space-y-3"><div><p class="text-xs preview-text-muted-light mb-1.5">Lesson Progress</p><div class="flex items-center gap-2 w-full"><div class="bg-muted relative h-2 flex-1 overflow-hidden rounded-full" role="progressbar" aria-valuenow="100.0" aria-valuemin="0" aria-valuemax="100" aria-label="Lesson progress"><div class="h-full rounded-full bg-gradient-to-r from-green-500 to-green-600 transition-all duration-500" style="width: 100%;"></div></div><span class="text-foreground text-xs font-medium whitespace-nowrap">100%</span></div></div><div><p class="text-xs preview-text-muted-light mb-1.5">Assignments Progress</p><div class="flex items-center gap-2 w-full"><div class="bg-muted relative h-2 flex-1 overflow-hidden rounded-full" role="progressbar" aria-valuenow="100.0" aria-valuemin="0" aria-valuemax="100" aria-label="Assessment progress"><div class="h-full rounded-full bg-gradient-to-r from-[#24C246] to-[#24C246] transition-all duration-500" style="width: 100%;"></div></div><span class="text-foreground text-xs font-medium whitespace-nowrap">100%</span></div></div></div></div><div class="preview-card-light border rounded-lg p-4 shadow-sm"><h4 class="font-medium text-base mb-3 break-words whitespace-normal preview-text-primary-light">Week 12</h4><div class="space-y-3"><div><p class="text-xs preview-text-muted-light mb-1.5">Lesson Progress</p><div class="flex items-center gap-2 w-full"><div class="bg-muted relative h-2 flex-1 overflow-hidden rounded-full" role="progressbar" aria-valuenow="87.5" aria-valuemin="0" aria-valuemax="100" aria-label="Lesson progress"><div class="h-full rounded-full bg-gradient-to-r from-green-500 to-green-600 transition-all duration-500" style="width: 87.5%;"></div></div><span class="text-foreground text-xs font-medium whitespace-nowrap">87.5%</span></div></div><div><p class="text-xs preview-text-muted-light mb-1.5">Assignments Progress</p><div class="flex items-center gap-2 w-full"><div class="bg-muted relative h-2 flex-1 overflow-hidden rounded-full" role="progressbar" aria-valuenow="100.0" aria-valuemin="0" aria-valuemax="100" aria-label="Assessment progress"><div class="h-full rounded-full bg-gradient-to-r from-[#24C246] to-[#24C246] transition-all duration-500" style="width: 100%;"></div></div><span class="text-foreground text-xs font-medium whitespace-nowrap">100%</span></div></div></div></div><div class="preview-card-light border rounded-lg p-4 shadow-sm"><h4 class="font-medium text-base mb-3 break-words whitespace-normal preview-text-primary-light">Download Videos</h4><div class="space-y-3"><div><p class="text-xs preview-text-muted-light mb-1.5">Lesson Progress</p><div class="flex items-center gap-2 w-full"><div class="bg-muted relative h-2 flex-1 overflow-hidden rounded-full" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" aria-label="Lesson progress"><div class="h-full rounded-full bg-gradient-to-r from-green-500 to-green-600 transition-all duration-500" style="width: 0%;"></div></div><span class="text-foreground text-xs font-medium whitespace-nowrap">0%</span></div></div><div><p class="text-xs preview-text-muted-light mb-1.5">Assignments Progress</p><span class="text-sm preview-text-muted-light">-</span></div></div></div><div class="preview-card-light border rounded-lg p-4 shadow-sm"><h4 class="font-medium text-base mb-3 break-words whitespace-normal preview-text-primary-light">Books</h4><div class="space-y-3"><div><p class="text-xs preview-text-muted-light mb-1.5">Lesson Progress</p><div class="flex items-center gap-2 w-full"><div class="bg-muted relative h-2 flex-1 overflow-hidden rounded-full" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" aria-label="Lesson progress"><div class="h-full rounded-full bg-gradient-to-r from-green-500 to-green-600 transition-all duration-500" style="width: 0%;"></div></div><span class="text-foreground text-xs font-medium whitespace-nowrap">0%</span></div></div><div><p class="text-xs preview-text-muted-light mb-1.5">Assignments Progress</p><span class="text-sm preview-text-muted-light">-</span></div></div></div><div class="preview-card-light border rounded-lg p-4 shadow-sm"><h4 class="font-medium text-base mb-3 break-words whitespace-normal preview-text-primary-light">Text Transcripts</h4><div class="space-y-3"><div><p class="text-xs preview-text-muted-light mb-1.5">Lesson Progress</p><div class="flex items-center gap-2 w-full"><div class="bg-muted relative h-2 flex-1 overflow-hidden rounded-full" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" aria-label="Lesson progress"><div class="h-full rounded-full bg-gradient-to-r from-green-500 to-green-600 transition-all duration-500" style="width: 0%;"></div></div><span class="text-foreground text-xs font-medium whitespace-nowrap">0%</span></div></div><div><p class="text-xs preview-text-muted-light mb-1.5">Assignments Progress</p><span class="text-sm preview-text-muted-light">-</span></div></div></div></div></div></div></div></div><div data-state="closed" data-orientation="vertical" data-slot="accordion-item" class="w-full rounded-md border"><h3 data-orientation="vertical" data-state="closed" class="flex"><button type="button" aria-expanded="false" data-state="closed" data-orientation="vertical" id="radix-_r_c_" data-slot="accordion-trigger" class="focus-visible:border-ring focus-visible:ring-ring/50 flex flex-1 items-start justify-between gap-4 text-left transition-all outline-none focus-visible:ring-[3px] disabled:pointer-events-none disabled:opacity-50 [&amp;[data-state=open]&gt;svg]:rotate-180 w-full rounded-md px-4 py-4 text-base leading-relaxed font-medium tracking-normal not-italic preview-panel-light data-[state=open]:rounded-b-none" data-radix-collection-item="">Grading and Certifications Policy<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down text-muted-foreground pointer-events-none size-4 shrink-0 translate-y-0.5 transition-transform duration-200" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg></button></h3>
+                        <div data-state="closed" id="radix-policy-content" role="region" aria-labelledby="radix-_r_c_" data-orientation="vertical" data-slot="accordion-content" class="hidden overflow-hidden text-sm" style="display: none;">
+                          <div class="p-6 space-y-4 text-sm leading-relaxed text-muted-foreground border-t">
+                            <h4 class="font-semibold text-base text-foreground">CRITERIA TO GET A CERTIFICATE:</h4>
+                            <ul class="list-disc pl-5 space-y-2">
+                              <li><strong>Average assignment score</strong> = 25% of average of best 8 assignments out of the total 12 assignments given in the course.</li>
+                              <li><strong>Exam score</strong> = 75% of the proctored certification exam score out of 100.</li>
+                              <li><strong>Final score</strong> = Average assignment score + Exam score</li>
+                            </ul>
+                            <div class="p-3 rounded-md bg-amber-50 dark:bg-amber-950/30 border border-amber-200 dark:border-amber-800 text-amber-900 dark:text-amber-200 text-xs font-medium">
+                              YOU WILL BE ELIGIBLE FOR A CERTIFICATE ONLY IF AVERAGE ASSIGNMENT SCORE &ge; 10/25 AND EXAM SCORE &ge; 30/75.<br>
+                              If one of the 2 criteria is not met, you will not get the certificate even if the Final score &ge; 40/100.
+                            </div>
+                            <p class="text-xs">
+                              Certificate will have your name, photograph and the score in the final exam with the breakup. It will have the logos of NPTEL and IIT Ropar. It will be verifiable at nptel.ac.in/noc. Only the e-certificate will be made available. Hard copies will not be dispatched.
+                            </p>
+                          </div>
+                        </div>
+</div></div></div></div><div class="mb-4"><p class="text-sm/[1.43] font-normal tracking-[0.17px] preview-text-primary-light">Announcement:<p class="inline"> You are currently receiving course-related emails. <span class="preview-link-light" style="cursor: pointer;">Click here to unsubscribe.</span></p></p></div><div><p class="text-sm/[1.43] font-normal tracking-[0.17px] preview-text-primary-light">Discussion Form:</p><p class="text-sm/[1.43] font-normal tracking-[0.17px] preview-text-primary-light">If you want to unsubscribe from forum <span class="preview-link-light" style="cursor: pointer;">Click here.</span></p></div></div></div></div></div></div></div><div class=" fixed z-9999 top-4 left-1/2 -translate-x-1/2 w-[92%] sm:w-auto sm:max-w-[420px] space-y-2 pointer-events-none " aria-live="polite" aria-atomic="true"></div><!--/$--><next-route-announcer style="position: absolute;"><template shadowmode="open"><div aria-live="assertive" id="__next-route-announcer__" role="alert" style="position: absolute; border: 0px; height: 1px; margin: -1px; padding: 0px; width: 1px; clip: rect(0px, 0px, 0px, 0px); overflow: hidden; white-space: nowrap; overflow-wrap: normal;">Course: Deep Learning - IIT Ropar | SWAYAM</div></template></next-route-announcer>
+    <!-- Accessibility Dialog Modal -->
+    <div id="a11y-modal" class="hidden fixed inset-0 z-50 flex items-center justify-center bg-black/40 backdrop-blur-xs p-4">
+      <div class="bg-white dark:bg-[#1E2535] rounded-xl shadow-2xl border border-gray-200 dark:border-gray-700 w-full max-w-md p-6 animate-in fade-in zoom-in-95 duration-150">
+        <div class="flex items-center justify-between pb-4 border-b border-gray-200 dark:border-gray-700">
+          <div class="flex items-center gap-2">
+            <img src="assets/accessibility_icon.svg" class="w-5 h-5 block dark:hidden" alt="">
+            <img src="assets/accessibility_dark.svg" class="w-5 h-5 hidden dark:block" alt="">
+            <h3 class="font-semibold text-gray-900 dark:text-gray-100 text-base">Accessibility Options</h3>
+          </div>
+          <button id="close-a11y" class="text-gray-500 hover:text-gray-700 dark:hover:text-gray-300 p-1 rounded-md text-lg leading-none cursor-pointer">&times;</button>
+        </div>
+        <div class="py-5 space-y-5">
+          <div>
+            <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Text Size</label>
+            <div class="flex items-center gap-2">
+              <button id="font-decrease" class="flex-1 py-2 px-3 border border-gray-300 dark:border-gray-600 rounded-lg text-sm font-medium hover:bg-gray-100 dark:hover:bg-gray-800 transition">A -</button>
+              <button id="font-reset" class="flex-1 py-2 px-3 border border-gray-300 dark:border-gray-600 rounded-lg text-sm font-medium hover:bg-gray-100 dark:hover:bg-gray-800 transition">Reset (100%)</button>
+              <button id="font-increase" class="flex-1 py-2 px-3 border border-gray-300 dark:border-gray-600 rounded-lg text-sm font-medium hover:bg-gray-100 dark:hover:bg-gray-800 transition">A +</button>
+            </div>
+          </div>
+          <div>
+            <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Display Theme</label>
+            <div class="grid grid-cols-2 gap-3">
+              <button id="theme-light" class="py-2.5 px-4 border border-blue-500 bg-blue-50/50 dark:bg-transparent rounded-lg text-sm font-medium text-blue-700 dark:text-blue-400 flex items-center justify-center gap-2">
+                <span>☀️ Light</span>
+              </button>
+              <button id="theme-dark" class="py-2.5 px-4 border border-gray-300 dark:border-gray-600 rounded-lg text-sm font-medium text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 flex items-center justify-center gap-2">
+                <span>🌙 Dark</span>
+              </button>
+            </div>
+          </div>
+          <div>
+            <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Reading Assistance</label>
+            <div class="flex items-center justify-between p-3 bg-gray-50 dark:bg-gray-800/60 rounded-lg">
+              <span class="text-sm text-gray-700 dark:text-gray-300">High Contrast Mode</span>
+              <input type="checkbox" id="contrast-toggle" class="h-4 w-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500 cursor-pointer">
+            </div>
+          </div>
+        </div>
+        <div class="pt-3 border-t border-gray-200 dark:border-gray-700 flex justify-end">
+          <button id="close-a11y-btn" class="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg text-sm font-medium transition cursor-pointer">Done</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- JJ Profile Dropdown Menu -->
+    <div id="profile-dropdown" class="hidden fixed right-6 top-16 z-50 w-72 bg-white dark:bg-[#1E2535] rounded-xl shadow-2xl border border-gray-200 dark:border-gray-700 p-2 animate-in fade-in slide-in-from-top-2 duration-150">
+      <div class="p-3 border-b border-gray-100 dark:border-gray-700">
+        <p class="font-semibold text-gray-900 dark:text-gray-100">Vishakh V Prakash</p>
+        <p class="text-xs text-gray-500 dark:text-gray-400 truncate">vishakhvprakash@gmail.com</p>
+        <div class="mt-2 inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-blue-100 text-blue-800 dark:bg-blue-900/40 dark:text-blue-300">Enrolled Student</div>
+      </div>
+      <!-- Switch Profile Quick Access -->
+      <div class="py-2 border-b border-gray-100 dark:border-gray-700 bg-gray-50/70 dark:bg-gray-800/40 px-2 rounded-lg my-1">
+        <p class="px-2 pb-1.5 text-[11px] font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wider flex items-center justify-between">
+          <span>Switch Student</span>
+          <a href="index.html" class="text-blue-600 dark:text-blue-400 text-[10px] lowercase hover:underline font-normal">All Profiles</a>
+        </p>
+        <div class="space-y-1">
+          <a href="vishakh.html" class="flex items-center justify-between px-2.5 py-1.5 text-xs rounded-md bg-blue-50 text-blue-700 font-medium dark:bg-blue-950/50 dark:text-blue-300 border-l-2 border-blue-600 transition-colors">
+            <span class="truncate pr-2">Vishakh V Prakash</span>
+            <span class="text-xs text-blue-600 font-bold">✓</span>
+          </a>
+          <a href="vishnu.html" class="flex items-center justify-between px-2.5 py-1.5 text-xs rounded-md text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700/50 transition-colors">
+            <span class="truncate pr-2">Vishnu S</span>
+            <span class="text-[11px] text-gray-400 font-mono">VS</span>
+          </a>
+          <a href="abhijith.html" class="flex items-center justify-between px-2.5 py-1.5 text-xs rounded-md text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700/50 transition-colors">
+            <span class="truncate pr-2">Abhijith G</span>
+            <span class="text-[11px] text-gray-400 font-mono">AG</span>
+          </a>
+          <a href="jijohns.html" class="flex items-center justify-between px-2.5 py-1.5 text-xs rounded-md text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700/50 transition-colors">
+            <span class="truncate pr-2">Jijohns Johnson</span>
+            <span class="text-[11px] text-gray-400 font-mono">JJ</span>
+          </a>
+          <a href="vaishnav.html" class="flex items-center justify-between px-2.5 py-1.5 text-xs rounded-md text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700/50 transition-colors">
+            <span class="truncate pr-2">Vaishnav Biju</span>
+            <span class="text-[11px] text-gray-400 font-mono">VB</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="py-1">
+        <a href="#" class="flex items-center gap-2 px-3 py-2 text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg">
+          <svg class="w-4 h-4 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
+          My Courses
+        </a>
+        <a href="#" class="flex items-center gap-2 px-3 py-2 text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg">
+          <svg class="w-4 h-4 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path></svg>
+          Student Profile
+        </a>
+        <a href="#" class="flex items-center gap-2 px-3 py-2 text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg">
+          <svg class="w-4 h-4 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+          Account Settings
+        </a>
+      </div>
+      <div class="pt-1 border-t border-gray-100 dark:border-gray-700">
+        <a href="#" class="flex items-center gap-2 px-3 py-2 text-sm text-red-600 dark:text-red-400 hover:bg-red-50 dark:hover:bg-red-950/30 rounded-lg">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1"></path></svg>
+          Sign Out
+        </a>
+      </div>
+    </div>
+
+    <!-- AI Powered Assistant Drawer -->
+    <div id="ai-drawer" class="hidden fixed inset-y-0 right-0 z-50 w-full max-w-sm bg-white dark:bg-[#1E2535] shadow-2xl border-l border-gray-200 dark:border-gray-700 flex flex-col transform transition-transform duration-200">
+      <div class="flex items-center justify-between p-4 border-b border-gray-200 dark:border-gray-700 bg-slate-50 dark:bg-gray-800/60">
+        <div class="flex items-center gap-2">
+          <div class="w-7 h-7 rounded-lg bg-blue-600 text-white flex items-center justify-center text-xs font-bold">AI</div>
+          <h3 class="font-semibold text-gray-900 dark:text-gray-100 text-sm">Deep Learning AI Tutor</h3>
+        </div>
+        <button id="close-ai" class="text-gray-500 hover:text-gray-700 dark:hover:text-gray-300 p-1 rounded-md text-lg leading-none cursor-pointer">&times;</button>
+      </div>
+      <div class="flex-1 p-4 overflow-y-auto space-y-4">
+        <div class="bg-blue-50 dark:bg-blue-950/40 p-3 rounded-lg border border-blue-200 dark:border-blue-900 text-xs text-blue-900 dark:text-blue-200">
+          Hello Vishakh! You have completed <strong>93.33%</strong> of Deep Learning - IIT Ropar. Ask any question about Week 1 to 12 lectures or assignments.
+        </div>
+        <div class="space-y-2">
+          <div class="text-xs font-medium text-gray-500 uppercase tracking-wider">Suggested Queries</div>
+          <button class="w-full text-left text-xs p-2 bg-gray-50 dark:bg-gray-800 hover:bg-gray-100 rounded-lg border border-gray-200 dark:border-gray-700 transition">Summarize Backpropagation in Week 2</button>
+          <button class="w-full text-left text-xs p-2 bg-gray-50 dark:bg-gray-800 hover:bg-gray-100 rounded-lg border border-gray-200 dark:border-gray-700 transition">Review Convolutional Neural Networks (Week 6)</button>
+          <button class="w-full text-left text-xs p-2 bg-gray-50 dark:bg-gray-800 hover:bg-gray-100 rounded-lg border border-gray-200 dark:border-gray-700 transition">Explain Attention Mechanisms & Transformers (Week 11)</button>
+        </div>
+      </div>
+      <div class="p-3 border-t border-gray-200 dark:border-gray-700 flex gap-2">
+        <input type="text" placeholder="Ask AI about Deep Learning..." class="flex-1 px-3 py-2 text-xs border border-gray-300 dark:border-gray-600 rounded-lg dark:bg-gray-800 dark:text-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500">
+        <button class="px-3 py-2 bg-blue-600 text-white rounded-lg text-xs font-medium hover:bg-blue-700">Send</button>
+      </div>
+    </div>
+
+    <!-- Interactive Script -->
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        // --- Accordions logic ---
+        const accordionTriggers = document.querySelectorAll('[data-slot="accordion-trigger"]');
+        
+        accordionTriggers.forEach(function(trigger) {
+          trigger.addEventListener('click', function(e) {
+            e.preventDefault();
+            const parentItem = trigger.closest('[data-slot="accordion-item"]');
+            if (!parentItem) return;
+
+            const isCurrentlyOpen = trigger.getAttribute('data-state') === 'open';
+            const newState = isCurrentlyOpen ? 'closed' : 'open';
+
+            // Find associated content
+            let content = null;
+            if (trigger.id === 'radix-_r_8_') {
+              content = document.getElementById('radix-assignment-content');
+            } else if (trigger.id === 'radix-_r_a_') {
+              content = document.getElementById('radix-_r_b_');
+            } else if (trigger.id === 'radix-_r_c_') {
+              content = document.getElementById('radix-policy-content');
+            }
+
+            // Update attributes
+            trigger.setAttribute('data-state', newState);
+            trigger.setAttribute('aria-expanded', !isCurrentlyOpen);
+            parentItem.setAttribute('data-state', newState);
+
+            if (content) {
+              content.setAttribute('data-state', newState);
+              if (newState === 'open') {
+                content.classList.remove('hidden');
+                content.style.display = 'block';
+              } else {
+                content.classList.add('hidden');
+                content.style.display = 'none';
+              }
+            }
+          });
+        });
+
+        // --- Accessibility Dialog ---
+        const a11yBtn = document.querySelector('button[title="Accessibility Tools"]');
+        const a11yModal = document.getElementById('a11y-modal');
+        const closeA11y = document.getElementById('close-a11y');
+        const closeA11yBtn = document.getElementById('close-a11y-btn');
+
+        if (a11yBtn && a11yModal) {
+          a11yBtn.addEventListener('click', function(e) {
+            e.stopPropagation();
+            a11yModal.classList.toggle('hidden');
+          });
+          closeA11y.addEventListener('click', () => a11yModal.classList.add('hidden'));
+          closeA11yBtn.addEventListener('click', () => a11yModal.classList.add('hidden'));
+          a11yModal.addEventListener('click', function(e) {
+            if (e.target === a11yModal) a11yModal.classList.add('hidden');
+          });
+        }
+
+        // Font scaling
+        let currentScale = 1.0;
+        const fontInc = document.getElementById('font-increase');
+        const fontDec = document.getElementById('font-decrease');
+        const fontReset = document.getElementById('font-reset');
+
+        if (fontInc) {
+          fontInc.addEventListener('click', () => {
+            currentScale = Math.min(1.4, currentScale + 0.1);
+            document.documentElement.style.setProperty('--a11y-font-scale', currentScale);
+            document.documentElement.style.fontSize = (currentScale * 100) + '%';
+          });
+          fontDec.addEventListener('click', () => {
+            currentScale = Math.max(0.8, currentScale - 0.1);
+            document.documentElement.style.setProperty('--a11y-font-scale', currentScale);
+            document.documentElement.style.fontSize = (currentScale * 100) + '%';
+          });
+          fontReset.addEventListener('click', () => {
+            currentScale = 1.0;
+            document.documentElement.style.setProperty('--a11y-font-scale', 1.0);
+            document.documentElement.style.fontSize = '100%';
+          });
+        }
+
+        // Theme switching (Light / Dark)
+        const themeLight = document.getElementById('theme-light');
+        const themeDark = document.getElementById('theme-dark');
+
+        function setTheme(mode) {
+          if (mode === 'dark') {
+            document.documentElement.classList.add('dark');
+            themeDark.classList.add('border-blue-500', 'bg-blue-900/30', 'text-blue-400');
+            themeLight.classList.remove('border-blue-500', 'bg-blue-50/50', 'text-blue-700');
+          } else {
+            document.documentElement.classList.remove('dark');
+            themeLight.classList.add('border-blue-500', 'bg-blue-50/50', 'text-blue-700');
+            themeDark.classList.remove('border-blue-500', 'bg-blue-900/30', 'text-blue-400');
+          }
+        }
+
+        if (themeLight && themeDark) {
+          themeLight.addEventListener('click', () => setTheme('light'));
+          themeDark.addEventListener('click', () => setTheme('dark'));
+        }
+
+        // --- Profile Menu (Desktop & Mobile) ---
+        const profileBtns = [
+          document.getElementById('radix-_r_0_'),
+          document.getElementById('mobile-avatar-btn')
+        ];
+        const profileDropdown = document.getElementById('profile-dropdown');
+        profileBtns.forEach(function(btn) {
+          if (btn && profileDropdown) {
+            btn.addEventListener('click', function(e) {
+              e.stopPropagation();
+              profileDropdown.classList.toggle('hidden');
+            });
+          }
+        });
+
+        // --- AI Drawer ---
+        const aiBtn = document.querySelector('button[aria-label="Open AI Widgets"]');
+        const aiDrawer = document.getElementById('ai-drawer');
+        const closeAi = document.getElementById('close-ai');
+
+        if (aiBtn && aiDrawer) {
+          aiBtn.addEventListener('click', function(e) {
+            e.stopPropagation();
+            aiDrawer.classList.toggle('hidden');
+          });
+          closeAi.addEventListener('click', () => aiDrawer.classList.add('hidden'));
+        }
+
+        // Close dropdowns on outside click
+        document.addEventListener('click', function(e) {
+          if (profileDropdown && !profileDropdown.contains(e.target) && e.target !== profileBtn) {
+            profileDropdown.classList.add('hidden');
+          }
+          if (aiDrawer && !aiDrawer.contains(e.target) && !aiBtn.contains(e.target)) {
+            aiDrawer.classList.add('hidden');
+          }
+        });
+      });
+    </script>
+
+</body></html>
